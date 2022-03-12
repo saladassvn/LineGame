@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7970400971172313080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7970400971172313082}
+  - component: {fileID: 1781257303}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7970400971172313082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7970400971172313080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1781257303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7970400971172313080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8fc58a9e216a674486a72e240383222, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BackGroundMusic
+    clip: {fileID: 8300000, guid: a7e1555f6513de244acd5ccffa0915cf, type: 3}
+    volume: 0.354
+    pitch: 1.04
+    loop: 1
+    source: {fileID: 0}
+  - name: Do
+    clip: {fileID: 8300000, guid: b1c10db093ed80f459f31a398ccff906, type: 3}
+    volume: 0.248
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Re
+    clip: {fileID: 8300000, guid: 17369cdab47794f4cbcba5c986f13d67, type: 3}
+    volume: 0.265
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Fa
+    clip: {fileID: 8300000, guid: 0bd8d99dd42c3ab44a66fe2e00ff4c55, type: 3}
+    volume: 0.252
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: La
+    clip: {fileID: 8300000, guid: 3e9aaafef21960a41a71617c59ffcb76, type: 3}
+    volume: 0.269
+    pitch: 0.81
+    loop: 0
+    source: {fileID: 0}
+  - name: Mi
+    clip: {fileID: 8300000, guid: a7f904ce0a6723e46b87cf8067f4dffd, type: 3}
+    volume: 0.252
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Sol
+    clip: {fileID: 8300000, guid: 988fe427100473d4fb6f30121d09a50c, type: 3}
+    volume: 0.273
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Si
+    clip: {fileID: 8300000, guid: 0d47ce1770fdc7d439bf95afd257806d, type: 3}
+    volume: 0.358
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: Death1
+    clip: {fileID: 8300000, guid: a7d1305de3a76b04f8709202bc52cb5d, type: 3}
+    volume: 0.371
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: Death2
+    clip: {fileID: 8300000, guid: 3c6a34554a44979468abb26fc72c66ad, type: 3}
+    volume: 0.341
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: Death3
+    clip: {fileID: 8300000, guid: e4b9c9929d72b694c9ee390c8ae93929, type: 3}
+    volume: 0.38
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  - name: GetPoint
+    clip: {fileID: 8300000, guid: ef47bd5e691ff1347a111c7047c6d21b, type: 3}
+    volume: 0.38
+    pitch: 1.01
+    loop: 0
+    source: {fileID: 0}
+  audioMixerGroup: {fileID: 24300002, guid: c01c61ebb74f85b4aa16cef42c3cbc7d, type: 2}
+  musicMixerGroup: {fileID: 24300002, guid: 9fed228deca0bb647baf3864d94f8583, type: 2}
